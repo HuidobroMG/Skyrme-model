@@ -8,3 +8,5 @@ Spectral_Skyrme.py solves the same differential equation as the first one but us
 Skyrmions_Plotter.py represents any 3-dimensional skyrmion if the energy density and the pion fields are given. It uses the Python library Mayavi to plot the skyrmion and considers the Leeds colouring convention.
 
 Gradient_Flow.py uses a more advanced procedure to solve a generic skyrmion of B >= 1. It constructs an initial configuration just taking the topological degree of the desired skyrmion and uses a gradient flow method to minimize the energy functional and find the solution.
+
+Skyrme.ipynb is a jupyter notebook which performs some useful symbolic calculations of the Skyrme model. In it you may find the expressions of the Skyrme lagrangian as well as the Isospin inertia tensor for the hedgehog ansatz, but also for the generic SU(2) expansion of the Skyrme field.
