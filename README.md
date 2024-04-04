@@ -1,5 +1,5 @@
 # Skyrme-model
-In this repository you will find codes which are related to the 3-dimensional Skyrme model. There are simple and introductory codes to the Skyrme model as well as more advanced calculations which are focused in the study of infinite nuclear matter. Concretely:
+In this repository you will find codes which are related to the 3-dimensional Skyrme model. There are simple and introductory codes to the Skyrme model as well as more advanced calculations which are focused in the study of infinite nuclear matter. These codes have been developed and used for the publication of my PhD thesis (https://minerva.usc.es/xmlui/handle/10347/32925). Specifically:
 
 B1.py solves the B = 1 skyrmion in spherical coordinates using a shooting method. This is the simplest code and the first which one should be able to write when working with the Skyrme model. In this code the generalized Skyrme lagrangian may be considered.
 
@@ -12,3 +12,7 @@ Gradient_Flow.py uses a more advanced procedure to solve a generic skyrmion of B
 Skyrme.ipynb is a jupyter notebook which performs some useful symbolic calculations of the Skyrme model. In it you may find the expressions of the Skyrme lagrangian as well as the Isospin inertia tensor for the hedgehog ansatz, but also for the generic SU(2) expansion of the Skyrme field.
 
 RatMap_constructor.ipynb is a very useful jupyter notebook which specifically combined with the Gradient_Flow.py code might be of extreme interest to construct B >= 1 skyrmions. It takes the rational map ansätze and computes the symbolic expressions.
+
+Skyrmions.cc is a C++ code which constructs (using the rational map approximation) a skyrmions with a given baryon number B = 1-8 and 4N^3 (where N is an integer number) and finds the minimal energy configuration performing an accelerated gradient flow method.
+
+Skyrmions_Parallel.cc is the parallelized version of Skyrmions.cc using the OpenMP library of the C++ language. In order to compile this code, one must run the following command: g++ -fopenmp Skyrmions_Parallel.cc
