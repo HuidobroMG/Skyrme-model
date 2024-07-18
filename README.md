@@ -13,6 +13,14 @@ Skyrmions.cc is a C++ code which constructs (using the rational map approximatio
 
 Skyrmions_Parallel.cc is the parallelized version of Skyrmions.cc using the OpenMP library of the C++ language. In order to compile this code, one must run the following command: g++ -fopenmp Skyrmions_Parallel.cc
 
+Minimizer.cc
+
+Minimizer_Parallel.cc
+
+Skyrmions_Rhos.cc
+
+Skyrmions_Rhos_Parallel.cc
+
 Hedgehog.py solves the B = 1 skyrmion in spherical coordinates using a shooting method. This is the simplest code and the first which one should be able to write when working with the Skyrme model. In this code the generalized Skyrme lagrangian may be considered.
 
 Extended_Hedgehog.py
