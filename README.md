@@ -33,7 +33,7 @@ Polynomials.py
 
 Spectral_Skyrme.py solves the same differential equation as the first one but using spectral methods. In this concrete case, the shooting method is a simpler approach, however this code is an excellent example for solving a multidomain non-linear unidimensional differential equation. This file needs the presence of the Polynomials.py code to work.
 
-Rational_Map.py 
+RationalMap.py 
 
 Skyrme_Crystal.py
 
